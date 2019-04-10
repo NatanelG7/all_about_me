@@ -23,7 +23,7 @@ form{
   margin: 0 auto;
 }
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 1020px) {
   form {
     width: 100%;
   }
@@ -41,4 +41,6 @@ button, input[type=reset]{
   transition: background-color 0.3s;
 }
 
-button:hover, input[type=reset]
+button:hover, input[type=reset]:hover{
+  background-color: gray;
+}
